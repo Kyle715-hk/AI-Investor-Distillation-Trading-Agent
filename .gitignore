@@ -1,0 +1,69 @@
+# .gitignore
+# Updated January 2026 – after adding zscore_signals.png and daily_spread.png to root
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+env/
+venv/
+.venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Data & large files (do NOT commit raw downloads or intermediate data)
+*.csv
+*.parquet
+*.hdf5
+*.h5
+*.pickle
+*.pkl
+*.feather
+*.zip
+data/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.AppleDouble
+.LSOverride
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Matplotlib / plotting cache
+matplotlibrc
+.cache/
+fontlist-v*.json
+
+# ──────────────────────────────────────────────
+# Images – protect future / temporary plots
+# We already committed the good ones (zscore_signals.png, daily_spread.png)
+# so ignore most other .png / .jpg files going forward
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# But explicitly allow the ones we want to keep (already committed)
+!zscore_signals.png
+!daily_spread.png

@@ -1,0 +1,20 @@
+{
+  "investor": "Ray Dalio",
+  "core_principles": [
+    "The economy operates in cycles influenced by credit growth, government policy, and market psychology",
+    "Diversification is non-negotiable to reduce risk",
+    "Balance assets across different environments to ensure portfolio survival",
+    "Risk parity is key to a stable, balanced portfolio"
+  ],
+  "stock_selection_criteria": [
+    "Focus on real assets in volatile or inflationary times",
+    "Consider alternative assets like Bitcoin in a diversified portfolio",
+    "Take profits on fully priced stocks to buy underpriced assets"
+  ],
+  "risk_management_rules": [
+    "Diversify across 15+ uncorrelated assets to reduce risk by 70-80%",
+    "Assign more capital to lower-volatility assets and less to higher-volatility assets",
+    "Protect your capital, not your ego, by admitting mistakes and exiting losing positions"
+  ],
+  "prompt_template": "Given current market conditions, interest rates, and economic cycle, what allocation adjustments should be made to a diversified portfolio to maintain risk parity and maximize returns, considering a 1-2% allocation to alternative assets like Bitcoin?"
+}

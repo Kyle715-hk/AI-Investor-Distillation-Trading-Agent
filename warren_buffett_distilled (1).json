@@ -1,0 +1,21 @@
+{
+  "investor": "Warren Buffett",
+  "core_principles": [
+    "long-term focus",
+    "business quality",
+    "strong competitive advantages",
+    "competent management",
+    "attractive valuations",
+    "patience",
+    "emotional discipline"
+  ],
+  "stock_selection_criteria": [
+    "high returns on capital",
+    "low debt",
+    "understandable business model"
+  ],
+  "risk_management_rules": [
+    "avoid businesses we don't understand"
+  ],
+  "prompt_template": "Considering a long-term perspective, evaluate the business quality, competitive advantages, management competence, and valuation attractiveness of [stock/company]. Does it generate high returns on capital with minimal debt? Is the business model understandable? If so, what is the estimated intrinsic value and potential for long-term growth?"
+}

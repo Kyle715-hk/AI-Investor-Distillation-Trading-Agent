@@ -1,6 +1,30 @@
-# Daily Stat-Arb Pipeline: 2800.HK vs Hang Seng Index Basket
+# AI-Investor-Distillation-Trading-Agent
 
-**Status**: Personal / interview project (not live trading)
+**AI-Powered Extension of "Daily Stat-Arb Pipeline: 2800.HK vs Hang Seng Index Basket"**
+
+This project extends my previous **Statistical Arbitrage framework** on the TraHK ETF (2800.HK) by integrating **AI skill distillation**, intelligent research agents, and advanced quantitative risk modeling.
+
+## 🎯 Project Overview
+
+**Original Project**: Daily Statistical Arbitrage Pipeline on 2800.HK ETF  
+**This Extension**: Added AI layer + Monte Carlo risk engine to create a more powerful, hybrid quant trading system.
+Built specifically to demonstrate capabilities relevant to **AI Research & Trading Automation** and **Data Analyst (Asset Management)** roles.
+
+## ✨ Key Enhancements (New in this Version)
+
+- **AI Skill Distillation**: LLM-powered extraction of investment philosophies from Warren Buffett, Ray Dalio, and other legendary investors into structured rules, criteria, and reusable LLM prompts.
+- **AI Stock Research Agent**: Autonomous agent that combines fundamental metrics with natural language analysis from news and reports.
+- **Monte Carlo Risk Simulation**: 5,000+ scenario paths with Expected Return, 95% VaR, and CVaR analysis for robust forecasting and risk management.
+- **TradingView Integration**: Custom Pine Script v5 indicator for mean-reversion + volatility screening.
+- **Enhanced Backtesting**: Improved the original statistical arbitrage pipeline with AI-driven insights and regime-aware risk controls.
+
+## 🛠 Tech Stack
+
+- **Core**: Python, pandas, yfinance, numpy, matplotlib
+- **AI/LLM**: OpenRouter (Llama 3.1 70B)
+- **Risk Modeling**: Monte Carlo Simulation
+- **Trading**: Pine Script v5
+- **Base Framework**: Extended from original 2800.HK Stat-Arb Pipeline
 
 ## Motivation
 Demonstrate classic statistical arbitrage pipeline under real-world Hong Kong market data constraints (poor intraday reliability via Yahoo Finance in 2025–2026).  
@@ -39,10 +63,19 @@ Raw spread before normalization, shown with 252-day rolling mean.
 - Efficient ETF → daily arb edge is minimal (better intraday or stress periods)
 - Learned: cost modeling & hedge ratio debugging are critical
 
-## Tech stack
-Python • yfinance • pandas • statsmodels • matplotlib • backtrader (exploratory)
 
-## How to run
-```bash
-pip install -r requirements.txt
-jupyter notebook main_notebook.ipynb
+## 🚀 How to Run
+
+1. Open `AI_Quant_Trading_Agent_ChinaRise.ipynb` in Google Colab
+2. Add your `OPENROUTER_API_KEY` in Colab Secrets
+3. Run cells sequentially
+
+---
+
+**Kyle Chan**  
+Bachelor of Arts and Sciences in Social Data Science  
+The University of Hong Kong  
+(+852) 6761 0118 | wangtikchan715@gmail.com  
+[LinkedIn](https://linkedin.com/in/wang-tik-chan)
+
+---

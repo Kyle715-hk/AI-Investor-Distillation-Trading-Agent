@@ -46,6 +46,14 @@ Focus: hedge ratio stability, cost-aware backtesting, signal realism on efficien
 
 **Takeaway**: Modest edge possible in simulation, but collapses under realistic HK costs/slippage → aligns with tight premium/discount of TraHK.
 
+- Successfully distilled investment philosophies of **Warren Buffett** and **Ray Dalio** into structured, reusable formats.
+- Generated professional AI-powered research notes for major stocks (e.g. 2800.HK / BRK-B).
+- Monte Carlo Simulation on 2800.HK / BRK-B showed realistic 1-year risk-return profiles:
+  - Expected Return: ~8.81% (BRK-B example)
+  - 95% VaR: -19.65%
+  - CVaR (Expected Shortfall): -25.27%
+- Built a clean, reusable framework that bridges traditional quant strategies with modern AI tools.
+
 ## Visual Results
 
 ### Rolling Z-Score (Mean-Reversion Signals)
@@ -63,6 +71,7 @@ Raw spread before normalization, shown with 252-day rolling mean.
 - Efficient ETF → daily arb edge is minimal (better intraday or stress periods)
 - Learned: cost modeling & hedge ratio debugging are critical
 
+![Monte Carlo Simulation - 5,000 paths for BRK-B](Monte Carlo Simulation - 5,000 paths for BRK-B.png)
 
 ## 🚀 How to Run
 

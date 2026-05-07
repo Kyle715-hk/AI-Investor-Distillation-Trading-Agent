@@ -67,7 +67,7 @@ Raw spread before normalization, shown with 252-day rolling mean.
 ![Daily Spread](daily_spread.png)
 **Monte Carlo Simulation — 5,000 Possible 1-Year Price Paths for BRK-B**
 
-![Monte Carlo Simulation - 5,000 paths for BRK-B](Monte Carlo Simulation - 5,000 paths for BRK-B.png)
+![Monte Carlo Simulation](monte_carlo_simulation.png)
 ## Limitations & Lessons
 - Very low trade frequency (sampling noise dominant)
 - No volatility targeting / position sizing yet

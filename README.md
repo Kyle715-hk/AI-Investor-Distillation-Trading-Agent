@@ -65,9 +65,11 @@ Normalized spread with entry/exit thresholds (typical entry |z| > 2.0–2.5, exi
 Raw spread before normalization, shown with 252-day rolling mean.
 
 ![Daily Spread](daily_spread.png)
+
 **Monte Carlo Simulation — 5,000 Possible 1-Year Price Paths for BRK-B**
 
 ![Monte Carlo Simulation](monte_carlo_simulation.png)
+*Chart shows distribution of possible outcomes with 95% VaR and Expected Shortfall clearly visible.*
 ## Limitations & Lessons
 - Very low trade frequency (sampling noise dominant)
 - No volatility targeting / position sizing yet

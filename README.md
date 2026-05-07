@@ -65,13 +65,13 @@ Normalized spread with entry/exit thresholds (typical entry |z| > 2.0–2.5, exi
 Raw spread before normalization, shown with 252-day rolling mean.
 
 ![Daily Spread](daily_spread.png)
+![Monte Carlo Simulation - 5,000 paths for BRK-B](Monte Carlo Simulation - 5,000 paths for BRK-B.png)
 ## Limitations & Lessons
 - Very low trade frequency (sampling noise dominant)
 - No volatility targeting / position sizing yet
 - Efficient ETF → daily arb edge is minimal (better intraday or stress periods)
 - Learned: cost modeling & hedge ratio debugging are critical
 
-![Monte Carlo Simulation - 5,000 paths for BRK-B](Monte Carlo Simulation - 5,000 paths for BRK-B.png)
 
 ## 🚀 How to Run
 
